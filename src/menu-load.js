@@ -1,6 +1,8 @@
 const loadMenu = () => {
-    const main = document.querySelector(".main");
-    if (main) content.removeChild(main);
+    const main = document.createElement("h3");
+    main.classList.add("main");
+    main.textContent = "Menu goes here";
+    return main;
 };
 
 export { loadMenu };

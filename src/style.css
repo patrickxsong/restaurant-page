@@ -20,8 +20,11 @@ body {
     padding-top: 10px;
 }
 
-.title {
+.main {
     padding-top: 10px;
+}
+
+.title {
     font-size: 2rem;
 }
 

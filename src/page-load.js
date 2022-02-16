@@ -1,6 +1,6 @@
 import Icon from './odin-lined.png';
 
-const content = document.querySelector("#content");
+// const content = document.querySelector("#content");
 
 const loadHeader = () => {
     const header = document.createElement("div");
@@ -19,7 +19,7 @@ const loadHeader = () => {
     header.appendChild(menu);
     header.appendChild(contact);
 
-    content.appendChild(header)
+    return header;
 }
 
 const loadPage = () => {
@@ -41,7 +41,8 @@ const loadPage = () => {
     main.appendChild(name);
     main.appendChild(myIcon);
     main.appendChild(copy);
-    content.appendChild(main);
+    
+    return main;
 }
 
 export {
